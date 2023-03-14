@@ -1,7 +1,7 @@
 package com.rompa.davegowalkies.park;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
-public record Park(String name, Date openingTime, Date closingTime, Date toiletsLockTime) {
+public record Park(String name, LocalDateTime openingTime, LocalDateTime closingTime, LocalDateTime toiletsLockTime) {
     
 }
