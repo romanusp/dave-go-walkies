@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ParkController {
 
-    @GetMapping(value="/park")
+    @GetMapping(value = "/park")
     public Park getMethodName(@RequestParam String param) {
-        return new Park("ChristChurch", LocalDateTime.parse("2018-05-05T11:50:55"), LocalDateTime.parse("2018-05-05T11:50:55"), LocalDateTime.parse("2018-05-05T11:50:55"));
+        return new Park("ChristChurch", LocalDateTime.parse("2018-05-05T11:50:55"),
+                LocalDateTime.parse("2018-05-05T11:50:55"), LocalDateTime.parse("2018-05-05T11:50:55"));
     }
 }
