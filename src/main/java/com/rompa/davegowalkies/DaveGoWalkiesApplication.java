@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DaveGoWalkiesApplication {
 
 	public static void main(String[] args) {
-		// anothes dippy change for staging - diddy back ra !
+		// anothes dippy change for staging - diddy boo !
 		SpringApplication.run(DaveGoWalkiesApplication.class, args);
 	}
 
