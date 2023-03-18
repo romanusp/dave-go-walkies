@@ -11,7 +11,7 @@ public class ParkController {
 
     @GetMapping(value = "/park")
     public Park getMethodName(@RequestParam String parkName) {
-        return new Park("ChristChurch", LocalDateTime.parse("2018-05-05T11:50:55"),
+        return new Park("ChristTaiChiCha", LocalDateTime.parse("2018-05-05T11:50:55"),
                 LocalDateTime.parse("2018-05-05T11:50:55"), LocalDateTime.parse("2018-05-05T11:50:55"));
     }
 }
